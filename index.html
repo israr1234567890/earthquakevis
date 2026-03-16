@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/earthquake-icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Real-time earthquake visualization and analysis for geography students and seismology enthusiasts" />
+    <meta name="keywords" content="earthquake, seismology, visualization, USGS, real-time, geography" />
+    <meta name="author" content="Earthquake Visualizer" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://earthquake-visualizer.vercel.app/" />
+    <meta property="og:title" content="Earthquake Visualizer - Real-time Seismic Activity" />
+    <meta property="og:description" content="Visualize and analyze recent earthquake activity around the world in real-time" />
+    <meta property="og:image" content="/earthquake-preview.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://earthquake-visualizer.vercel.app/" />
+    <meta property="twitter:title" content="Earthquake Visualizer - Real-time Seismic Activity" />
+    <meta property="twitter:description" content="Visualize and analyze recent earthquake activity around the world in real-time" />
+    <meta property="twitter:image" content="/earthquake-preview.png" />
+    
+    <!-- Preconnect to external domains for performance -->
+    <link rel="preconnect" href="https://earthquake.usgs.gov" />
+    <link rel="preconnect" href="https://tile.openstreetmap.org" />
+    
+    <title>Earthquake Visualizer - Real-time Seismic Activity</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
